@@ -1,7 +1,7 @@
 import React,{Fragment} from 'react'
 import './Header.css'
 
-export const Header = props => (
+export const Header = () => (
   <Fragment>
     <div class='container text-center'>
       <h1> Clicky Game! </h1>

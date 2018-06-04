@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import './NavBar.css'
 
 const Nav = props => (
   <Fragment>
@@ -11,7 +12,7 @@ const Nav = props => (
           Click an image to begin!
         </div>
         <div class="col-sm-4">
-          Score: 0| Top Score: 0
+          Score: {props.score} | Top Score: {props.topScore}
         </div>
       </div>
     </div>

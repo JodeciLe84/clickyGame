@@ -1,11 +1,13 @@
 main {
-  margin: 88.6px;
+  margin: 0px 170px;
   padding: 50px 100px;
+  /* height: 558px;
+  width: 900px; */
+  display: flex;
+  flex-flow: row wrap;
 }
 
-#content {
-  min-height: calc(100vh - 70px);
-}
+
 #footer {
   height: 50px;
   text-align: center;
