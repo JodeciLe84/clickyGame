@@ -33,7 +33,7 @@ class App extends Component {
         if(!obj.clicked) {
           obj.clicked = !cards[i].clicked
           this.setState({score : this.state.score + 1})
-          this.state.cards.sort(() => Math.random() -0.5)
+          this.state.cards.sort(() => Math.random() - 0.5)
           return true;
         } else {
           this.gameOver()
